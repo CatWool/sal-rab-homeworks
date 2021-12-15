@@ -33,7 +33,7 @@ function addInCartCountChange(value) {
     // увеличьте значение newValue на 1
     
     let newValue = oldValue;
-    newValue = newValue++;
+    newValue = newValue + 1;
 
     // Конец решения задания №1.2.
 
@@ -52,10 +52,9 @@ function addInCartSumChange(sum, delta) {
     
     let newSum = oldSum + difference;
     let newSumText = newSum + " ₽";
-    newSumText = "${newSum} ₽";
+    //newSumText = "${newSum} ₽";
 
     // Конец решения задания №1.3.
 
     return newSumText;
 }
-
